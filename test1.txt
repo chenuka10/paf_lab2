@@ -1,0 +1,97 @@
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2
+$ git clone https://github.com/chenuka10/paf_lab2.git
+Cloning into 'paf_lab2'...
+warning: You appear to have cloned an empty repository.
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2
+$ cd paf_lab2
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git add --all
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git add --all
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   test1.txt
+
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git commit -m "added txt file"
+[main (root-commit) 19b7386] added txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test1.txt
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chenuka10/paf_lab2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (main)
+$ git checkout -b feature/chenuka10/newfeature
+Switched to a new branch 'feature/chenuka10/newfeature'
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$ git push -u origin feature/chenuka10/newfeature
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'feature/chenuka10/newfeature' on GitHub by visiting:
+remote:      https://github.com/chenuka10/paf_lab2/pull/new/feature/chenuka10/newfeature
+remote:
+To https://github.com/chenuka10/paf_lab2.git
+ * [new branch]      feature/chenuka10/newfeature -> feature/chenuka10/newfeature
+branch 'feature/chenuka10/newfeature' set up to track 'origin/feature/chenuka10/newfeature'.
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$ git add test2fet.txt
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$ git status
+On branch feature/chenuka10/newfeature
+Your branch is up to date with 'origin/feature/chenuka10/newfeature'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test2fet.txt
+
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$ git commit -m "added new txt"
+[feature/chenuka10/newfeature b32bbf1] added new txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test2fet.txt
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$ git push origin -u feature/chenuka10/newfeature
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 243 bytes | 243.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chenuka10/paf_lab2.git
+   19b7386..b32bbf1  feature/chenuka10/newfeature -> feature/chenuka10/newfeature
+branch 'feature/chenuka10/newfeature' set up to track 'origin/feature/chenuka10/newfeature'.
+
+ASUS TUF GAMING@LAPTOP-4ANLIEUG MINGW64 ~/Desktop/SLIIT/3Y1S/paf_2/paf_lab2 (feature/chenuka10/newfeature)
+$
